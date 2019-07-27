@@ -1,0 +1,36 @@
+repository: /BLOG
+repository_url: http://blog.3721611.com
+
+timezone: Asia/Shanghai
+lang: zh_CN
+
+title: 乐云享 · 云搜索
+alias_en: 乐云享
+alias_cn: 乐云享
+description: A Navigation Website for 无界
+keywords: 乐云享, 搜索, 聚合搜索, 网址导航, 网盘搜索, 电影, 直播, 音乐, 购物
+url: http://www.3721611.com
+established_at: "2012-09-13T00:00+08:00"
+
+author: 无界
+author_url: https://blog.3721611.com
+
+image: /images/logo.png
+logo: /images/logo.png
+logo_dark: /images/logo-dark.svg
+logo_white: /images/logo-white.svg
+
+plugins:
+- jekyll-seo-tag
+- jekyll-sitemap
+
+exclude:
+- .gitignore
+- .travis.yml
+- LICENSE
+- README.md
+- CNAME
+- Gemfile
+- Gemfile.lock
+- script
+- vendor
